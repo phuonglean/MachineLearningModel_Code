@@ -4,8 +4,11 @@ Standard code for Machine Learning models and will be updated every new model I 
 Last Updated Date: 30.12.2023
 
 I have completed Supervised Learning and Advanced Learning algorithms courses which cover:
+
 #1. Linear Regression (with Gradient Descent, Cost function computation, Feature Scaling, SGDRegression)
+
 #2. Logistic Regression (Batch Gradient Descent, Cost function computation)
+
 #3. Neural Network:
 Case study brief: Customer profiles dataset at one bank comprises values of Credit Score, Geography, Gender, Age, Tenure, Balancing, Number of products, Credit Card possession, Active Member, Estimated Salary, Excited. Based on these columns, a bank wants to predict whether the customers will churn.
 Approach: To start with simple method, I use ANN model to predict the probability of churn with 6 steps below:
