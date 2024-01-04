@@ -5,13 +5,17 @@ Last Updated Date: Jan 3rd, 2024
 
 I have completed Supervised Learning and Advanced Learning algorithms courses which cover:
 
-#1. Linear Regression (with Gradient Descent, Cost function computation, Feature Scaling, SGDRegression)
+**1. Linear Regression** (with Gradient Descent, Cost function computation, Feature Scaling, SGDRegression)
 
-#2. Logistic Regression (Batch Gradient Descent, Cost function computation)
+**2. Logistic Regression** (Batch Gradient Descent, Cost function computation)
 
-#3. Neural Network:
+**3. Neural Network** (with Neural Networks, matrix, activation function [Sigmoid, ReLu, Linear, Softmax], roundoff error, convolutional neural network, back propagation, Bias & variance, Decision Tree, Entropy measurement, Tree ensemble & Random Forest, XGBoost for Random Forest)
+
+Besides, I have also find a dataset on Kaggle to practice learning points described above:
+
 Case study brief: Customer profiles dataset at one bank comprises values of Credit Score, Geography, Gender, Age, Tenure, Balancing, Number of products, Credit Card possession, Active Member, Estimated Salary, Excited. Based on these columns, a bank wants to predict whether the customers will churn.
-Approach: To start with simple method, I use ANN model to predict the probability of churn with 6 steps below:
+
+First Approach: To start with simple method, I use ANN model to predict the probability of churn with 6 steps below:
 - Step 1: Import libraries data - I use sklearn libraries and tensorflow package whereas the dataset is on Kaggle named Bank Customer Churn Dataset
 - Step 2: Explore data - I use visualization to demonstrate distribution, skewness and correlations of variables
 - Step 3: Preprocess data - I use one-hot encoding to treat categorical variables. Then splitting dataset into train and test set
