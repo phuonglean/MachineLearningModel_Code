@@ -22,3 +22,5 @@ First Approach: To start with simple method, I use ANN model to predict the prob
 - Step 4: Feature scaling - Because each features differ from each other scales, I use standard scaler which subtract value on each row's feature by mean and then divide it by standard deviation as for 2 reasons: first is distributions of all features are not normally distributed; second is each feature has different value range which increase time to reach optimal global minimum of loss function
 - Step 5: Build model - I develop simple model with 3 layers: first layer is input layer with 13 units, activation function is RELU; second layer is hidden layer with 6 units, activation is RELU; third layer is output layer with 1 unit, activation is Sigmoid because the output is binary. Moreover, I add regularization on kernels to compute loss = l2 * reduce_sum(square(x))
 - Step 6: Implement model - I test the model with new data input to see how much probability the model gives me for customer's likelihood of churn.
+
+**4. Decision Tree**
